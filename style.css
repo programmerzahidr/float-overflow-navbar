@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* homework no 1 */
+.homework-heading h1{
+    text-align: center;
+    background-color: #66ff00;
+    text-transform: capitalize;
+    height: 50px;
+    line-height: 50px;
+    font-size: 50px;
+}
+.block-element .one{
+    background-color: #584CBF;
+    margin-top: 50px;
+    text-transform: capitalize;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 50px;
+}
+.block-element .two{
+    background-color: #9683FB;
+    margin-top: 10px;
+    text-transform: capitalize;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 50px;
+}
+.block-element .three{
+    background-color: #CAC0FC;
+    margin-top: 10px;
+    text-transform: capitalize;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 50px;
+}
+.inline-element .block{
+    display: inline-block;
+    width: 32.1%;
+    margin: 10px 0px 10px 10px;
+}
+.inline-element .one{
+    background-color: #584CBF;
+    text-transform: capitalize;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+}
+.inline-element .two{
+    background-color: #9683FB;
+    text-transform: capitalize;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+}
+.inline-element .three{
+    background-color: #CAC0FC;
+    text-transform: capitalize;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+}
+/* end of homework no 1 */
+/* homework no 2 */
+.website-layout{
+    width: 1000px;
+    height: 700px;
+    margin: 50px auto;
+}
+.header{
+    width: 100%;
+    height: 150px;
+    background: #584CBF;
+}
+.main-part{
+    display: flex;
+}
+.main-part .sidebar{
+    width: 300px;
+    height: 400px;
+    background-color: green;
+}
+.main-part .main-content{
+    width: 700px;
+    height: 400px;
+    background-color: #F9AB7F;
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: #050529;
+}
+.website-layout p{
+    font-size: 50px;
+    text-align: center;
+    color: #fbff00;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+/* end of homework no 2 */
+/* homework no three */
+.h-three-txt{
+    margin-top: 50px;
+}
+.h-three-txt h1{
+    margin-top: 50px;
+    font-size: 80px;
+    margin-bottom: 50px;
+    background-color: #ffff;
+}
+.use-overflow-box{
+    margin-top: 50px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.box1,.box2,.box3,.box4{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #0000ff;
+}
+.box2{
+    overflow: hidden;
+}
+.box3{
+    overflow: scroll;
+    background-color: aqua;
+}
+.box4{
+    overflow: auto;
+}
+h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+/* end of homework no three */
+/* home work no 4 */
+.hw-four-area{
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+    border: 10px dashed #9901ff;
+    background-color: #000000;
+}
+.hw-four-area .inline-tag{
+    width: 500px;
+    height: 50px;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+.inline-tag a{
+    background-color: #B585FD;
+    padding: 15px 40px;
+    margin: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #000000;
+    border-radius: 20px;
+}
+.inline-tag h1{
+    color: #ffff;
+    background-color: #9C27AE;
+    margin-top: 50px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.hw-four-area .one{
+    display: inline-block;
+    background-color: #7D4EFE;
+    margin-top: 100px;
+    height: 80px;
+    margin-left: 9px;
+}
+.hw-four-area .two{
+    display: inline-block;
+    background-color: #B585FD;
+    margin-top: 100px;
+    height: 50px;
+}
+.hw-four-area .three{
+    display: inline-block;
+    background-color: #6D3CEC;
+    margin-top: 100px;
+}
+.hw-four-area .block{
+    display: inline-block;
+    color: #ffff;
+    background-color: #9C27AE;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+/* end of home work no 4 */
+/* home work no {5} */
+.container{
+    width: 1000px;
+    height: 890px;
+    margin: 50px auto;
+    background-color: #000000;
+    border: 5px solid #0000ff;
+    position: relative;
+    border-radius: 20px;
+}
+.container .left-colum{
+    width: 350px;
+    height: 595px;
+    background-color: #C3E8FB;
+    border-radius: 20px;
+    position: absolute;
+    top: 280px;
+    left: 20px;
+}
+.left-heading .extra-box{
+    width: 340px;
+    height: 250px;
+    background-color: #00c3ff;
+    position: absolute;
+    top: 20px;
+    left: 24px;
+    border-radius: 20px;
+}
+.left-colum .box-one{
+    width: 330px;
+    height: 185px;
+    background-color: #F9AB7F;
+    margin: 10px;
+    border-radius: 20px;
+}
+.left-colum .box-two{
+    width: 330px;
+    height: 185px;
+    background-color: #aaf300;
+    margin: 10px;
+    border-radius: 20px;
+}
+.left-colum .box-three{
+    width: 330px;
+    height: 185px;
+    background-color: #ff5e00;
+    margin: 10px;
+    border-radius: 20px;
+}
+.right-side .slide-show{
+    width: 600px;
+    height: 250px;
+    background-color: #6f00ff;
+    float: right;
+    position: absolute;
+    top: 20px;
+    left: 380px;
+    border-radius: 20px;
+}
+.slide-show-img .img-one{
+    width: 290px;
+    height: 200px;
+    background-color: blue;
+    margin: 10px;
+    border-radius: 20px;
+}
+.slide-show-img .img-two{
+    width: 290px;
+    height: 200px;
+    background-color: #ff7300;
+    margin: 10px;
+    border-radius: 20px;
+}
+.slide-show-img .img-one,.img-two{
+    float: left;
+    position: relative;
+    top: 280px;
+    left: 375px;
+}
+.right-side-txt{
+    width: 600px;
+    height: 360px;
+    background-color: #c52525;
+    position: absolute;
+    top: 510px;
+    left: 387px;
+    border-radius: 20px;
+}
+.right-side-txt p{
+    padding: 10px;
+    color: #ffff;
+}
+/* end of home work no {5} */
+/* try to make something new */
+.new-container{
+    width: 1000px;
+    height: 890px;
+    margin: 50px auto;
+    background-color: #ffe600;
+    border: 5px solid #0066ff;
+    position: relative;
+    border-radius: 20px;
+}
+.new-container .new-left-colum{
+    width: 350px;
+    height: 595px;
+    border-radius: 20px;
+    position: absolute;
+    top: 280px;
+    left: 20px;
+}
+.new-left-heading .new-extra-box{
+    width: 340px;
+    height: 250px;
+    position: absolute;
+    top: 20px;
+    left: 24px;
+    border-radius: 20px;
+}
+.new-extra-box img{
+    width: 340px;
+    height: 250px;
+    border-radius: 20px;
+}
+.new-left-colum .new-box-one{
+    width: 330px;
+    height: 185px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.new-box-one img{
+    width: 330px;
+    height: 185px;
+    border-radius: 20px;
+}
+.new-left-colum .new-box-two{
+    width: 330px;
+    height: 185px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.new-box-two img{
+    width: 330px;
+    height: 185px;
+    border-radius: 20px;
+}
+.new-left-colum .new-box-three{
+    width: 330px;
+    height: 185px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.new-box-three img{
+    width: 330px;
+    height: 185px;
+    border-radius: 20px;
+}
+.new-right-side .new-slide-show{
+    width: 600px;
+    height: 250px;
+    float: right;
+    position: absolute;
+    top: 20px;
+    left: 380px;
+    border-radius: 20px;
+}
+.new-slide-show img{
+    width: 600px;
+    height: 250px;
+    border-radius: 20px;
+}
+.new-slide-show-img .new-img-one{
+    width: 290px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.new-img-one img{
+    width: 290px;
+    height: 200px;
+    border-radius: 20px;
+}
+.new-slide-show-img .new-img-two{
+    width: 290px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.new-img-two img{
+    width: 290px;
+    height: 200px;
+    border-radius: 20px;
+}
+.new-slide-show-img .new-img-one,.new-img-two{
+    float: left;
+    position: relative;
+    top: 280px;
+    left: 375px;
+}
+.new-right-side-txt{
+    width: 600px;
+    height: 360px;
+    position: absolute;
+    top: 510px;
+    left: 387px;
+    border-radius: 20px;
+}
+.new-right-side-txt img{
+    width: 600px;
+    height: 360px;
+    border-radius: 20px;
+}
+/* end of try to make something new */
